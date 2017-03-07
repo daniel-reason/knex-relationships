@@ -6,10 +6,8 @@
   <body>
     <ul>
     {{#each users}}
-      <li><a href='/profile/{{id}}'>{{name}}</a> ({{email}})</li>
-      {{url}}
+      <h3>{{url}}</h3> <img src="{{picture}}" alt="">
     {{/each}}
     </ul>
-    <a href='/addprofile'>Add User</a>
   </body>
 </html>
